@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    padding: 1.5rem 0;
+}
+
+#header, #join-octadesk{
+    padding: 5rem 0;
+    background-color: #e8fcf0;
+
+}
+.page-h1-title, .page-h2-title{
+    font-weight: 700;
+    color: #191919;
+}
+#numbers-section{
+    padding: 5rem 0;
+}
+#numbers-section .description-txt{
+    padding: 1.5rem 0;
+}
+#oportunities{
+    padding: 5rem 0;
+}
+#efficient-work{
+    padding: 5rem 0;
+}
+#testimonials{
+    padding: 5rem 0;
+}
+#testimonials .client-logo{
+    padding-bottom: 1.5rem;
+}
+
+.hs-richtext p{
+    text-align: center;
+      color: #191919;
+  font-weight: 300;
+  font-size: .8em;
+  padding-bottom: 0.5rem;
+}
+  .hs-form-field{
+    padding-bottom: 1rem;
+}
+.hs-input{
+    width: 100%;
+  padding: 0.2em;
+}
+.hs-button{
+    width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #fe376d;
+  font-family: Poppins,sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+}
+  .hs-error-msgs{
+    padding-left: 0;
+  list-style: none;
+}
+.hs-error-msg{
+    font-family: Poppins, sans-serif;
+  color: #ff0000;
+  font-size: .8em;
+  line-height: 1.5em;
+  font-weight: 400;
+  text-align: left;
+}
