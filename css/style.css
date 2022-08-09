@@ -9,9 +9,12 @@
 .lp-section.green{
   background-color: #DDF5E7;
 }
+p{
+  color: #29354D;
+}
 .page-h1-title, .page-h2-title{
     font-weight: 700;
-    color: #191919;
+    color: #29354D;
 }
 .txt-bold{
   font-weight: 700;
@@ -19,12 +22,24 @@
 .txt-small{
   font-size: .8em;
 }
+.txt-green{
+  color: #1BBB60;
+
+}
 .btn-pink-FC3A6A{
   background-color: #FC3A6A;
   padding: 1rem;
   color: #fff;
   text-decoration: none;
   font-weight: 700;
+  transition: .2s ease-in-out;
+}
+.btn-pink-FC3A6A:hover{
+  background-color: #fc1851;
+  color: #fff;
+}
+.navbar{
+  padding: 1rem 0;
 }
 .motion-lp{
   padding-top: 2rem;
@@ -126,3 +141,11 @@
   font-weight: 400;
   text-align: left;
 }
+@media (min-width: 992px) { 
+  .testimonial::before{
+   content: none;
+  }
+  .second-video{
+    display: none;
+  }
+ }
