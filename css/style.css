@@ -9,12 +9,21 @@
 .lp-section.green{
   background-color: #DDF5E7;
 }
+.lp-section.blue{
+  background-color: #E9F1FE;
+}
 p{
   color: #29354D;
 }
 .page-h1-title, .page-h2-title{
     font-weight: 700;
     color: #29354D;
+}
+.blue{
+  color: #006ED8;
+}
+.small-title{
+  font-size: 1.2em;
 }
 .txt-bold{
   font-weight: 700;
@@ -24,15 +33,21 @@ p{
 }
 .txt-green{
   color: #1BBB60;
-
+}
+.txt-pink{
+  color: #FC3A6A;
 }
 .btn-pink-FC3A6A{
-  background-color: #FC3A6A;
+  background-color: #FF3486;
   padding: 1rem;
   color: #fff;
   text-decoration: none;
   font-weight: 700;
   transition: .2s ease-in-out;
+  font-size: .9em;
+  width: 200px;
+  max-width: 100%;
+  margin-top: 1rem;
 }
 .btn-pink-FC3A6A:hover{
   background-color: #fc1851;
@@ -106,13 +121,13 @@ p{
 }
 .hs-richtext p{
   text-align: center;
-  color: #191919;
+  color: #fff;
   font-weight: 300;
   font-size: .8em;
   padding-bottom: 0.5rem;
 }
-  .hs-form-field{
-    padding-bottom: 1rem;
+.hs-form-field{
+  padding-bottom: 1rem;
 }
 .hs-input{
     width: 100%;
@@ -141,11 +156,45 @@ p{
   font-weight: 400;
   text-align: left;
 }
+.img-fluid.with-space{
+  padding: 1rem 0;
+}
+.pill-box-blue{
+  padding: 2rem 1rem;
+}
+.pill-box-blue .nav-pills .nav-link{
+  border-radius: 0;
+  border-bottom: 2px solid #FF3486;
+}
+.pill-box-blue .nav-pills .nav-link.active{
+  background-color: #FF3486;
+  border-radius: 0;
+}
+.pill-box-blue .tab-content{
+  padding: 3rem 0;
+}
+.form-box.bg-blue{
+  padding: 2rem 2rem;
+  background-color: #006ED8;
+  border-radius: 5px;
+}
+.form-box.bg-blue .hbspt-form .hs-form-field{
+  color: #fff;
+}
 @media (min-width: 992px) { 
   .testimonial::before{
    content: none;
   }
   .second-video{
     display: none;
+  }
+ }
+
+ @media (max-width: 554px){
+  .hide-mobile{
+    display: none;
+  }
+  .space-top-bottom{
+    padding: 2rem 0;
   }
  }
