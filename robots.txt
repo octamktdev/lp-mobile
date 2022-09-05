@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://resources.octadesk.com/sitemap.xml
