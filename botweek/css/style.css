@@ -92,7 +92,7 @@ body{
     font-weight: 600;
     padding: .5rem 3rem;
 }
-.btn-pink-FC3A6A{
+.btn-pink-FC3A6A, .hs-button{
     background-color: #FF3486;
     padding: 1rem;
     color: #fff;
@@ -103,13 +103,36 @@ body{
     width: 200px;
     max-width: 100%;
     margin: 1rem 0;
+    border: none;
   }
   .btn-pink-FC3A6A:hover{
     background-color: #fc1851;
     color: #fff;
   }
+  
   .form-box{
     border: solid 2px #6D042E;
-    padding: 1rem 2rem;
+    padding: 3rem 2rem;
     background-color: #3A3A3A;
+  }
+  .hs-form-field{
+    padding-bottom: 1rem;
+  }
+  .hs-form-field span, .hs-richtext p, .hs-error-msgs{
+    color: #fff;
+  }
+  .hs-input{
+    width: 100%;
+    border-radius: 5px;
+    padding: .5rem;
+  }
+  .hs-button{
+    width: 100%;
+  }
+  
+  #testimonials-section .testimonial-box{
+    background-color: #3a3a3a48;
+    padding: 2rem;
+    border-radius: 5px 5px 5px 0;
+    border: 1px solid #6D042E;
   }
