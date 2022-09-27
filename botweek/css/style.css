@@ -125,7 +125,7 @@ body{
   .hs-form-field{
     padding-bottom: 1rem;
   }
-  .hs-form-field span, .hs-richtext p, .hs-error-msgs{
+  .hs-form-field span, .hs-error-msgs{
     color: #fff;
   }
   .hs-input{
@@ -136,6 +136,14 @@ body{
   .hs-button{
     width: 100%;
   }
+  .hbspt-form .submitted-message{
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5px;
+  }
+
   #testimonials-section .testimonial-box{
     background-color: #3a3a3a48;
     padding: 2rem;
@@ -157,3 +165,31 @@ body{
         padding: 1rem 2rem;
      }
    }
+
+   .wrapper {
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #FF3486;
+  }
+  
+  .marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+  }
+  
+  .marquee p {
+    display: inline-block;
+    padding-top: 1rem;
+    color: #fff;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }   
