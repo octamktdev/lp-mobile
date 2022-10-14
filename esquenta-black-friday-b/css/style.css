@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;400;500&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.txt-white{
+    color: #f3f8fe;
+}
+.txt-grey{
+    color: #787d87;
+}
+.txt-yellow{
+    color: #FFC800;
+}
+.txt-blue{
+    color: #006ED8;
+}
+.bold{
+    font-weight: 700;
+}
+.page-h1-title, .page-h2-title, .small-title, .subtitle, .medium-title{
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Noto Sans', sans-serif;   
+}
+.small-title{
+    font-size: 1.2em;
+  }
+.lp-section{
+    padding: 4rem 0;
+}
+.medium-title{
+    font-size: 1.5em;
+}
+.lp-section.black{
+    background-color: #191919;
+}
+.form-box{
+    padding: 3rem 3rem;
+    background-color: #006ED8;
+    border-radius: 10px;
+}
+.space-top-bottom{
+    padding: 1.5rem 0;
+  }
+  .big-space-top{
+    padding: 5rem 0;
+  }
+.hbspt-form span{
+    color: #fff;
+}
+.hs-richtext p{
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    font-size: .8em;
+    padding-bottom: 0.5rem;
+  }
+  .hs-form-field{
+    padding-bottom: 1rem;
+  }
+  .hs-input{
+      width: 100%;
+    padding: 0.2em;
+  }
+  .hs-button{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #ffc700;
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #191919;
+    border: none;
+  }
+    .hs-error-msgs{
+      padding-left: 0;
+    list-style: none;
+  }
+  .hs-error-msg{
+      font-family: Poppins, sans-serif;
+    color: #ff0000;
+    font-size: .8em;
+    line-height: 1.5em;
+    font-weight: 400;
+    text-align: left;
+  }
+  .btn-yellow{
+    background-color: #FFC800;
+    padding: 1rem;
+    width: 200px;
+    max-width: 100%;
+    color: #191919;
+    font-weight: 700;
+    text-decoration: none;
+  }
