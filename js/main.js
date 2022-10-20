@@ -1,21 +1,15 @@
-$(document).ready(function(){
-    $('body').on('focus', 'telefone', function(){
-        var maskBehavior = function (val) {
-            return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
-        },
-        options = {
-            onKeyPress: function(val, e, field, options) {
-                field.mask(maskBehavior.apply({}, arguments), options);
+const sendButton = document.getElementsByClassName('hs-form__actions__submit')
 
-                if(field[0].value.length >= 14){
-                    var val = field[0].value.replace(/\D/g, '');
-                    if(/\d\d(\d)\1{7,8}/.test(val)){
-                        field[0].value = '';
-                        alert('Telefone Invalido');
-                    }
-                }
-            }
-        };
-        $(this).mask(maskBehavior, options);
-    });
+//verifica se o site é válido
+sendButton.addEventListener('keyup', (event) =>{
+  event.preventDefault()
+
+  const siteEmpresa = document.getElementById('company_subdmain-input')
+
+  if(siteEmpresa.value.indexOf('www') == -1 || siteEmpresa.value.indexOf('.') == -1){
+    alert ('digite um dominio valido')
+  }
+  else(
+    alert('enviado com sucesso!')
+  )
 });

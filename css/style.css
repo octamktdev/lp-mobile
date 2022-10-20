@@ -48,7 +48,7 @@ p{
   font-weight: 700;
   transition: .2s ease-in-out;
   font-size: .9em;
-  width: 200px;
+  width: 250px;
   max-width: 100%;
   margin-top: 1rem;
 }
@@ -159,6 +159,10 @@ p{
   font-weight: 400;
   text-align: left;
 }
+.hs-field-desc{
+  font-size: .7rem;
+    padding: 5px 0;
+}
 .img-fluid.with-space{
   padding: 1rem 0;
 }
@@ -183,6 +187,9 @@ p{
 }
 .form-box.bg-blue .hbspt-form .hs-form-field{
   color: #fff;
+}
+.text-link{
+  padding: 1rem 0;
 }
 @media (min-width: 992px) { 
   .testimonial::before{
