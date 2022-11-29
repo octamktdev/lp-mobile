@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+redirect 301 https://materiais.octadesk.com/sistema-whatsapp/ https://resources.octadesk.com/sistema-de-whatsapp/
+</IfModule>
