@@ -42,7 +42,7 @@ p{
 }
 .btn-pink-FC3A6A{
   background-color: #FF3486;
-  padding: 1rem;
+  padding: .5rem;
   color: #fff;
   text-decoration: none;
   font-weight: 700;
@@ -51,10 +51,15 @@ p{
   width: 250px;
   max-width: 100%;
   margin-top: 1rem;
+  border-radius: 5px;
 }
 .btn-pink-FC3A6A:hover{
   background-color: #fc1851;
   color: #fff;
+}
+.h3-title{
+  font-size: 1.2em;
+  font-weight: 700;
 }
 .navbar{
   padding: 1rem 0;
@@ -111,11 +116,11 @@ p{
 .testimonial::before{
   position: absolute;
   content: url(/img/blob.svg);
-  bottom: -5rem;
+  bottom: -4rem;
   left: -4rem;
   width: 125%;
   z-index: -1;
-}
+} 
 .form-section{
   padding: 1.5rem;
 }
@@ -152,7 +157,7 @@ p{
   list-style: none;
 }
 .hs-error-msg{
-    font-family: Poppins, sans-serif;
+  font-family: Poppins, sans-serif;
   color: #ff0000;
   font-size: .8em;
   line-height: 1.5em;
@@ -191,6 +196,98 @@ p{
 .text-link{
   padding: 1rem 0;
 }
+.box-bg-white{
+  padding: 2rem 2rem;
+  background-color: #F7F7F8;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+.box-bg-white p, .box-bg-white li{
+  font-size: .9em;
+}
+.box-bg-white ul{
+  padding-left: 1rem;
+}
+.bg-off-white{
+  background-color: #F7F7F8;
+  border-radius: 10px;
+}
+.main-text-box{
+  padding: 2rem;
+}
+.main-text-box .price-destak {
+  font-size: 2.3em;
+}
+.div-block-242{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.btn-select-pink{
+  background-color: white;
+  border: 1px solid #fe376d;
+  border-radius: 5px;
+  padding: .5rem 1rem;
+  width: 250px;
+  max-width: 100%;
+  margin-right: 10px;
+  color: #fe376d;
+  font-weight: 600;
+  transition: .2s ease-in-out;
+}
+.btn-select-pink:hover{
+  background-color: #fe376d;
+  color: white;
+}
+.btn-select-pink.active{
+  background-color: #fe376d;
+  color: white;
+}
+.btn-blue-primary{
+  background-color: #1366C9;
+  color: white;
+  padding: 14px 24px;
+  font-weight: 500;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.btn-blue-primary:hover{
+  color: white;
+  background-color: #285C9A;
+}
+.btn-blue-secondary{
+  background-color: white;
+  border: solid 1px #1366C9;
+  padding: 14px 24px;
+  color: #1366C9;
+  font-weight: 500;
+  border-radius: 12px;
+  transition: 2ms ease-in-out;
+}
+.btn-blue-secondary:hover{
+  background-color: #1366C9;
+  color: white;
+}
+
+.nav-item .btn-blue-secondary{
+  margin-left: 10px;
+}
+
+.carousel-indicators{
+  margin-bottom: 0!important;
+  bottom: -1rem!important;
+}
+.carousel-indicators [data-bs-target]{
+  background-color: #1366c9!important;
+  width: 10px!important;
+  height: 10px!important;
+  border-radius: 50%!important;
+}
+.carousel-inner{
+  padding: 1rem 0;
+}
+.col-cta{
+  padding: 2rem 0;
+}
 @media (min-width: 992px) { 
   .testimonial::before{
    content: none;
@@ -201,10 +298,35 @@ p{
  }
 
  @media (max-width: 554px){
+  #header.lp-section{
+    padding: 1rem 1rem 3rem 1rem;
+  }
+  .page-h1-title{
+    font-size: 1.3em;
+  }
+  .page-main-subtitle, p{
+    font-size: .9em;
+  }
+  .motion-lp{
+    padding-top: 0;
+  }
+  .lp-section{
+    padding: 3rem 1rem;
+  }
   .hide-mobile{
     display: none;
   }
   .space-top-bottom{
     padding: 2rem 0;
+  }
+  .space-top{
+    padding-top: 1rem;
+  }
+  .btn-pink-FC3A6A{
+    width: 100%;
+    margin-top: 0;
+  }
+  #social-proof.lp-section{
+    padding: 1rem;
   }
  }
