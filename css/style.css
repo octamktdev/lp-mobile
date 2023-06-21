@@ -288,6 +288,15 @@ p{
 .col-cta{
   padding: 2rem 0;
 }
+.info-box{
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border: 1px solid #c1c1c1;
+  border-radius: 6px;
+
+}
 @media (min-width: 992px) { 
   .testimonial::before{
    content: none;
